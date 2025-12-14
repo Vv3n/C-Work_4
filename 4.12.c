@@ -7,7 +7,6 @@
 #define C_COLS 2
 #define MAX_SIZE 3
 
-
 void print_matrix(int rows, int cols, int matrix[][MAX_SIZE]){
     for(int i = 0; i < rows; i++){
         for(int j = 0; j < cols; j++){
@@ -72,4 +71,5 @@ int main(){
     print_matrix(C_ROWS, C_COLS, C);
 
     return 0;
+
 }
